@@ -1,0 +1,36 @@
+<section class="vh-100" style="background-color: #f4f4f4;">
+  <div class="container py-5 h-100">
+    <div class="row d-flex justify-content-center align-items-center h-100">
+      <div class="col-12 col-md-8 col-lg-6 col-xl-5">
+        <div class="card shadow-lg" style="border-radius: 1rem;">
+          <div class="card-body p-5">
+            <h3 class="mb-4 text-center text-dark">Create an Account</h3>
+            <form action="/register" method="post">
+              <div class="form-outline mb-4">
+                <input type="text" id="fullName-2" name="fullName" placeholder="Full Name" class="form-control form-control-lg" />
+              </div>
+              <div class="form-outline mb-4">
+                <input type="text" id="phone-2" name="phone" placeholder="Mobile Number" class="form-control form-control-lg" />
+              </div>
+              <div class="form-outline mb-4">
+                <input type="email" id="typeEmailX-2" name="email" placeholder="Email" class="form-control form-control-lg" />
+              </div>
+              <div class="form-outline mb-4">
+                <input type="password" id="typePasswordX-2" placeholder="New Password" class="form-control form-control-lg" name="password" />
+              </div>
+              <div class="form-outline mb-4">
+                <input type="text" id="typeGender-2" name="gender" placeholder="Gender" class="form-control form-control-lg" />
+              </div>
+              <p class="text-danger">{{errorMessage}}</p>
+              <button class="btn btn-primary btn-lg btn-block" type="submit">Create New Account</button>
+            </form>
+            <div class="d-flex justify-content-center mt-4">
+              <p class="mb-0 me-2">Already have an account?</p>
+              <a href="/" class="text-primary fw-bold">Login</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

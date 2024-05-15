@@ -1,0 +1,29 @@
+<div class="container mt-5">
+  <h2 class="text-center text-primary font-weight-bold">Add New User</h2>
+  <form class="row g-3 mt-4 bg-light p-4 border rounded shadow" action="/admin/addUser/" method="post">
+    <div class="col-md-6">
+      <label for="inputName" class="form-label text-secondary font-weight-bold">Full Name</label>
+      <input type="text" name="fullName" value="" class="form-control" id="inputName">
+    </div>
+    <div class="col-md-6">
+      <label for="inputPhone" class="form-label text-secondary font-weight-bold">Phone</label>
+      <input type="text" name="phone" class="form-control" value="" id="inputPhone">
+    </div>
+    <div class="col-md-6">
+      <label for="inputEmail4" class="form-label text-secondary font-weight-bold">Email</label>
+      <input type="email" name="email" class="form-control" value="" id="inputEmail4">
+    </div>
+    <div class="col-md-6">
+      <label for="inputPassword4" class="form-label text-secondary font-weight-bold">Password</label>
+      <input type="password" name="password" class="form-control" id="inputPassword4">
+    </div>
+    <div class="col-md-6">
+      <label for="inputGender" class="form-label text-secondary font-weight-bold">Gender</label>
+      <input type="text" name="gender" class="form-control" id="inputGender">
+    </div>
+    <div class="col-12">
+      <button type="submit" class="btn btn-primary font-weight-bold">Add User</button>
+    </div>
+  </form>
+  <hr class="bg-primary">
+</div>
